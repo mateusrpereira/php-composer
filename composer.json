@@ -1,0 +1,24 @@
+{
+    "name": "mateusrpereira/buscador-cursos",
+    "description": "Projeto que busca os cursos no site do Senac",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mateusrpereira\\BuscadorCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateus Ramos Pereira",
+            "email": "mateusramospereira@hotmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
